@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "tailwind": "tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
-    "prettier": "prettier --write ./build/*.html"
+    "prettier": "prettier --write ./build/*.html --plugin=prettier-plugin-tailwindcss"
   },
   "keywords": [],
   "author": "",
